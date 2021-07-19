@@ -1,13 +1,10 @@
 # git branch&merge cheatsheet
 
-
     # list branches
     git branch -a
 
-
     # create local branch
     git branch b1
-
 
     # merge branch b1 to main
     git checkout main
