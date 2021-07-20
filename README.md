@@ -19,5 +19,11 @@
     # delete remote branch b2
     git push origin --delete b1
 
+    # merge master to branch b1 (way1)
+    git checkout b1
+    git merge master b1
 
+    # merge master to branch b1 (way2)
+    git checkout b1
+    git pull origin master
 
