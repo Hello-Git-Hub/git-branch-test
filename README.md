@@ -19,11 +19,11 @@
     # delete remote branch b2
     git push origin --delete b1
 
-    # merge main to branch b1 (way-1)
-    git checkout b1
-    git merge main 
+    # how to merge remote main to local branch b1 
+    git checkout main   # first go to main branch
+    git pull       # pull remote main to local main branch
+    git checkout b1 # then go to b1 branch
+    git merge main  # merge local main to b1
 
-    # merge main to branch b1 (way-2)
-    git checkout b1
-    git pull origin main (Not Recommend)
+
 
